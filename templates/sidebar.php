@@ -56,6 +56,7 @@
                                   <p>Lista Clientes</p>
                               </a>
                           </li>
+
                           <li class="nav-item">
                               <a href="gruint.php" class="nav-link">
                                   <i class="far fa-circle nav-icon"></i>
@@ -122,8 +123,39 @@
 
                       </ul>
                   </li>
+                  <li class="nav-item menu-is-opening menu-open">
+                      <a href="clientes.php" class="nav-link">
+                          <i class="nav-icon fas fa-user"></i>
+                          <p>
+                              Aseguradoras
+                              <i class="fas fa-angle-left right"></i>
+                          </p>
+                      </a>
+                      <ul class="nav nav-treeview" style="display: block;">
+                          <li class="nav-item">
+                              <a href="buscli.php" class="nav-link">
+                                  <i class="far fa-circle nav-icon"></i>
+                                  <p>Lista Aseguradoras</p>
+                              </a>
+                          </li>
+                          <ul class="nav nav-treeview" style="display: block;">
+                              <li class="nav-item">
+                                  <a href="buscli.php" class="nav-link">
+                                      <i class="far fa-circle nav-icon"></i>
+                                      <p>Ejecutivos</p>
+                                  </a>
+                              </li>
 
-                  <!--  
+
+
+                          </ul>
+
+
+
+                      </ul>
+                  </li>
+
+
 
                   <li class="nav-item">
                       <a href="../widgets.html" class="nav-link">
@@ -134,10 +166,10 @@
                           </p>
                       </a>
                   </li>
- -->
 
 
-                  <?php  if($_SESSION['nivel'] == 1): ?>
+
+                  <?php if ($_SESSION['nivel'] == 1) : ?>
 
                   <li class="nav-item menu-is-opening menu-open">
                       <a href="clientes.php" class="nav-link">
@@ -168,11 +200,11 @@
 
                   <?php
                     endif;
-                  ?>
+                    ?>
 
 
 
-                  <?php  if($_SESSION['nivel'] == 1 &&  2  ): ?>
+                  <?php if ($_SESSION['nivel'] == 1 &&  2) : ?>
 
                   <li class="nav-header">Administrativo</li>
                   <li class="nav-item">
@@ -204,7 +236,7 @@
                   </li>
                   <?php
                     endif;
-                  ?>
+                    ?>
 
 
 

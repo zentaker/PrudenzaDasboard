@@ -1,11 +1,11 @@
 <?php
 
 
-    include_once 'funciones/sessiones.php';
+include_once 'funciones/sessiones.php';
 
-    include_once 'templates/header.php';
-    include_once 'templates/barra.php';
-    include_once 'templates/sidebar.php';
+include_once 'templates/header.php';
+include_once 'templates/barra.php';
+include_once 'templates/sidebar.php';
 ?>
 
 <!-- Content Wrapper. Contains page content -->
@@ -87,7 +87,8 @@
 
                                     <h3 class="profile-username text-center">Jimena Perez</h3>
 
-                                    <p class="text-muted text-center">Estudiante</p>
+                                    <p class="text-muted text-center">PERFIL ASOCIADO</p>
+                                    <h3 class="profile-username text-center">23 años</h3>
 
                                     <ul class="list-group list-group-unbordered mb-3">
                                         <li class="list-group-item">
@@ -1009,8 +1010,8 @@
 
 
 <?php
-    include_once 'templates/footer.php';
-    
+include_once 'templates/footer.php';
+
 ?>
 
 
